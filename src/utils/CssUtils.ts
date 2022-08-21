@@ -1,0 +1,1 @@
+export const setCssVariable = (name: string, value: any) => document.documentElement.style.setProperty(name, value);

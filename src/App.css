@@ -1,0 +1,29 @@
+:root {
+  --fretboard-height: 400;
+  --number-of-strings: 6;
+  --string-height: 10;
+  --half-string-height: calc(var(--string-height) / 2);
+  --string-top-position: calc(var(--fretboard-height) / var(--number-of-strings) / 2 - var(--half-string-height));
+  --double-fretmark-position-1: calc(var(--fretboard-height) * 1 / var(--number-of-strings));
+  --double-fretmark-position-2: calc(var(--fretboard-height) * (var(--number-of-strings) - 1) / var(--number-of-strings));
+  --noteDotOpacity: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #353535;
+  font-family: Lato, sans-serif;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    opacity: 1;
+}
+
+label {
+    margin: 0 10px;
+}

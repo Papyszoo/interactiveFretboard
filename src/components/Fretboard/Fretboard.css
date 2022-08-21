@@ -1,0 +1,10 @@
+.fretboard {
+    display: flex;
+    flex-direction: column;
+    background: #be975b url("../../assets/wood-pattern.png");
+    border-top: 3px solid #bbb;
+    border-bottom: 3px solid #bbb;
+    width: 100%;
+    height: calc(var(--fretboard-height) * 1px);
+    margin-top: 50px;
+}
