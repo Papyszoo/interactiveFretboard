@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/interactiveFretboard/static/css/main.c273afbd.css",
+    "main.js": "/interactiveFretboard/static/js/main.cc8eeda3.js",
+    "static/media/wood-pattern.png": "/interactiveFretboard/static/media/wood-pattern.c226c30cc5a03f9b9f5e.png",
+    "index.html": "/interactiveFretboard/index.html",
+    "main.c273afbd.css.map": "/interactiveFretboard/static/css/main.c273afbd.css.map",
+    "main.cc8eeda3.js.map": "/interactiveFretboard/static/js/main.cc8eeda3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c273afbd.css",
+    "static/js/main.cc8eeda3.js"
+  ]
+}
