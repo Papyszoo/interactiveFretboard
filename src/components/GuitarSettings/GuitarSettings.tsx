@@ -6,13 +6,13 @@ import ShowAllNotesSetting from '../ShowAllNotesSetting/ShowAllNotesSetting'
 import ShowMultipleNotesSetting from '../ShowMultipleNotesSetting/ShowMultipleNotesSetting'
 import './GuitarSettings.css'
 
-const GuitarSettings = ({setInstrument, setAccidentals} : {setInstrument: Function, setAccidentals:Function}) => {
+const GuitarSettings = () => {
   
   
   return (
     <div className='settings'>
-      <InstrumentSelector setInstrument={setInstrument} />
-      <AccidentalsSelector setAccidentals={setAccidentals}/>
+      <InstrumentSelector />
+      <AccidentalsSelector />
       <NumberOfFretsSetting />
       <ShowAllNotesSetting />
       <ShowMultipleNotesSetting />
